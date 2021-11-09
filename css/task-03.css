@@ -1,0 +1,13 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.flex-element:not(:last-child) {
+  margin-right: 20px;
+}
+img {
+  display: block;
+  height: 100%;
+}
